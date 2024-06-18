@@ -1,5 +1,7 @@
 # DELLA-Merging: Reducing Interference in Model Merging through Magnitude-Based Sampling
 
+[Read the paper](https://arxiv.org/abs/2406.11617)
+
 With the proliferation of domain-specific models, model merging has emerged as a set of techniques that combine the capabilities of multiple models into one that can multitask without the cost of additional training. In this paper, we propose a new model merging technique, **D**rop and r**E**sca**L**e via samp**L**ing with m**A**gnitude (DELLA-Merging), that employs a novel pruning technique, MagPrune, which shows significant advantages over DARE and TIES. MagPrune first ranks the parameters in order of their magnitude and assigns higher dropout probabilities ($p$) to parameters with lower ranks corresponding to lower magnitudes. To approximate the original embeddings, MagPrune employs a rescaling operation on the parameters that survive the random dropping by $1/(1-p)$. On three different expert models considered for merging (LM, Math, Code) and corresponding benchmark datasets (AlpacaEval, GSM8K, MBPP), DELLA shows an average improvement of 2.4 points over baseline methods employing delta parameter pruning (an improvement of 3.6 points over TIES, 1.2 points over DARE), and 11.1 points over the no-pruning baseline (TA).
 
 ## Setting up Environment
