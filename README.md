@@ -148,3 +148,16 @@ python gpt4_as_judge_gsm8k.py \
   --response_file Path_to_lm-eval_gsm8k_response_file \
   --save_path save_gsm8k_results/
 ```
+
+## Citation
+
+```
+@misc{deep2024dellamerging,
+      title={DELLA-Merging: Reducing Interference in Model Merging through Magnitude-Based Sampling}, 
+      author={Pala Tej Deep and Rishabh Bhardwaj and Soujanya Poria},
+      year={2024},
+      eprint={2406.11617},
+      archivePrefix={arXiv},
+      primaryClass={id='cs.CL' full_name='Computation and Language' is_active=True alt_name='cmp-lg' in_archive='cs' is_general=False description='Covers natural language processing. Roughly includes material in ACM Subject Class I.2.7. Note that work on artificial languages (programming languages, logics, formal systems) that does not explicitly address natural-language issues broadly construed (natural-language processing, computational linguistics, speech, text retrieval, etc.) is not appropriate for this area.'}
+}
+```
