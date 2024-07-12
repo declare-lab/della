@@ -27,14 +27,14 @@ LAZY_UNPICKLE = False
 LOW_CPU_MEMORY = False
 
 # Expert model paths
-WIZARDMATH13B_PATH = "/data/rishabh/tej/models--WizardLM--WizardMath-13B-V1.0/snapshots/7ef412d2c680ef0fbdcd88d0df31b396d8d3049c"
-WIZARDCODER13B_PATH = "/data/rishabh/tej/models--WizardLM--WizardCoder-Python-13B-V1.0/snapshots/5ac6748b1f5a4c282107ddc7d3b69fdc4a686d75"
-WIZARDLM13B_PATH = "/data/rishabh/tej/models--WizardLM--WizardLM-13B-V1.2/snapshots/cf5f40382559f19e13874e45b39575171ca46ef8"
-LLAMA2_13B_CODE_ALPACA = "/data/rishabh/tej/models--layoric--llama-2-13b-code-alpaca/snapshots/32ee7b6cefd873da1fa02316f997248598786070"
+WIZARDMATH13B_PATH = "<Path to WizardMath-13B-V1.0>"
+WIZARDCODER13B_PATH = "<Path to WizardCoder-Python-13B-V1.0>"
+WIZARDLM13B_PATH = "<Path to WizardLM-13B-V1.2>"
+LLAMA2_13B_CODE_ALPACA = "<Path to llama-2-13b-code-alpaca>"
 
 # Base model paths
-CODELLAMA_PATH = "/data/rishabh/tej/models--codellama--CodeLlama-13b-Python-hf/snapshots/832ed72754fc79b6071c866586c26f474da9ee35"
-LLAMA2_13B_PATH = "/data/rishabh/tej/models--meta-llama--Llama-2-13b-hf/snapshots/dc1d3b3bfdb69df26f8fc966c16353274b138c55"
+CODELLAMA_PATH = "<Path to CodeLlama-13b-Python-hf>"
+LLAMA2_13B_PATH = "<Path to Llama-2-13b-hf>"
 
 
 models = ''
